@@ -1,0 +1,86 @@
+git help: Mostra vários comandos de forma resumida
+
+git help <comando>: Mostra detalhes de um comando específico
+
+git config --global user.name “Seu Nome”
+git config --global user.email “seuemaill@gmail.com”   (Usar o mesmo email do gitlab)
+ 
+Para o repositório atual: --local;
+Para o Usuário: --global;
+Para o Computador: --system
+
+Opcional:
+(primeiro testa code -v)
+git config --global core.editor 'code --wait' -> Vscode para editor padrão (precisa do code no PATH)
+
+
+	Se tudo der certo:
+	git config --global -e -> Abre o arquivo de configuração no vscode
+
+-------------------------------------------------------
+
+
+git init: Inicia o versionamento da pasta
+
+git status: Apresenta o panorama geral do projeto
+
+git add arquivo/diretório: Atualiza modificações específicas
+git add --all = git add .: Atualiza as últimas modificações
+
+git commit -m “Primeiro commit”: Faz a compilação, seguido da mensagem
+
+-------------------------------------------------------
+
+git log: Apresenta o histórico de todas compilações
+git log arquivo: Apresenta o histórico de uma compilação específica
+git reflog: Apresenta o histórico de todas compilações de forma resumida
+
+-------------------------------------------------------
+
+git show: Mostra as mudanças no último commit
+git show <commit>: Mostra as mudanças em um commit específico
+
+-------------------------------------------------------
+
+git diff: Mostra as últimas diferenças
+git diff <commit1> <commit2>: Mostra as diferenças entre dois commits
+
+-------------------------------------------------------
+
+git branch: Indica em que branch está
+git branch -r: Lista as branches remotas no Git
+git branch -a: Lista as branches locais e remotas no Git
+git branch -d <branch_name>: Deleta a branch
+git branch -D <branch_name>: Deleta forçadamente a branch
+git branch -m <nome_novo>: Renomeia uma branch
+git branch -m <nome_antigo> <nome_novo>: Troca o nome de uma branch
+
+-------------------------------------------------------
+
+git checkout <branch_name>: Direciona para uma branch específica
+git checkout -b <branch_name>: Cria uma branch e faz o direcionamento seguidamente
+
+-------------------------------------------------------
+
+git merge <branch_name>: Incorpora as mudanças de uma branch em outra branch
+
+-------------------------------------------------------
+
+git clone: Clona um repositório
+git pull: Envia o repositório local para o repositório remoto
+git push: Envia o repositório remoto para o repositório local
+
+-------------------------------------------------------
+
+git remote: Informa sobre o repositório remoto associado ao repositório local
+git remote -v: Lista os repositórios remotos associados aos repositórios locais, junto das URLs
+git remote add origin <url>: Adiciona um novo repositório remoto ao repositório local
+git remote rename <old-name> <new-name>: Renomeia um repositório remoto
+
+--------------------------------------------------------
+
+Documentação do git:
+https://git-scm.com/doc
+
+Playlist GIT:
+https://www.youtube.com/playlist?list=PLxjCnO-f9JPT6Kuww_d2TJQK31Mz-cwR4
