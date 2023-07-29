@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Desafio 3</h1>
+
+    <p>Peça ao usuário 2 números e depois peça para que ele digite uma das opções:</p>
+    
+    <ol>
+        <li>Adição</li>
+        <li>Subtração</li>
+        <li>Multiplicação</li>
+        <li>Divisão</li>
+        <li>Potenciação</li>
+    </ol>
+
+    <p>Depois, realize somente a operação escolhida pelo usuário.</p>
+
+    <p>Resposta:</p>
+
+    <pre>
+        <code>
+            var n1 = prompt("Digite o primeiro número")
+            var n2 = prompt("Digite o segundo número")
+
+            var op = prompt("Escolha a operação:\n1 - Adição \n2 - Subtração \n3 - Multiplicação \n4 - Divisão \n5 - Potenciação")
+
+            n1 = parseFloat(n1)
+            n2 = parseFloat(n2)
+            op = parseFloat(op)
+
+            if (op == 1) {
+                console.log(n1 + ' + ' + n2 + ' = ' + (n1 + n2) )
+            }
+
+            else {
+                if (op == 2) {
+                    console.log(n1 + ' - ' + n2 + ' = ' + (n1 - n2))
+                }
+                if (op == 3) {
+                    console.log(n1 + ' x ' + n2 + ' = ' + (n1 * n2) )
+                }
+                if (op == 4) {
+                    console.log(n1 + ' : ' + n2 + ' = ' + (n1 / n2) )
+                }
+                if (op == 5) {
+                    console.log(n1 + ' ^ ' + n2 + ' = ' + (n1 ** n2) )
+                }
+                else {
+                console.log("Erro")
+                }
+            }
+        </code>
+    </pre>
+
+</body>
+</html>

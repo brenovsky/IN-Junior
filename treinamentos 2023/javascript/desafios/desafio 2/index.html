@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Desafio 2</h2>
+    
+    <p>Fazer um código que pergunte ao usuário 2 números, e com esses dois números executam as seguintes operações:</p>
+
+    <ul>
+        <li>2 + 2 = 4</li>
+        <li>2 - 2 = 0</li>
+        <li>2 x 2 = 4</li>
+        <li>2 / 2 = 1</li>
+        <li>2 % 2 = 0</li>
+        <li>2 ^ 2 = 4</li>
+        <li>2 é maior ou igual à 2: true</li>
+        <li>2 é menor ou igual à 2: true</li>
+        <li>2 é maior do que 2: false</li>
+        <li>2 é menor do que: false</li>
+    </ul>
+
+    <p>Resposta:</p>
+
+    <pre>
+        <code>
+            var n1 = prompt("Qual é o primeiro número?")
+            var n2 = prompt("Qual é o segundo número?")
+
+            n1 = parseFloat(n1)
+            n2 = parseFloat(n2)
+
+            console.log(n1 + " + " + n2 + " = " + (n1 + n2))
+            console.log(n1 + " - " + n2 + " = " + (n1 - n2))
+            console.log(n1 + " x " + n2 + " = " + (n1 * n2))
+            console.log(n1 + " : " + n2 + " = " + (n1 / n2))
+            console.log(n1 + " % " + n2 + " = " + (n1 % n2))
+            console.log(n1 + " ^ " + n2 + " = " + (n1 ** n2))
+
+            console.log(n1 + " é maior ou igual à " + n2 + ": " + (n1 >= n2))
+            console.log(n1 + " é menor ou igual à " + n2 + ": " + (n1 <= n2))
+            console.log(n1 + " é maior do que " + n2 + ": " + (n1 > n2))
+            console.log(n1 + " é menor do que " + n2 + ": " + (n1 < n2))
+        </code>
+    </pre>
+</body>
+</html>

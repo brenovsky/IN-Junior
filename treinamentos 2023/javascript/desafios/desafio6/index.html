@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 6</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Desafio 6</h1>
+
+    <p>Peça ao usuário um nome e uma idade. Após isso, pergunte se ele quer inserir mais cadastros. Se sim, repita até não querer mais. Quando encerrar, mostre no console todos os cadastros realizados e a quantidade de cadastros feitos.</p>
+    
+    <p>Resposta:</p>
+    
+    <pre>
+        <code>
+            var nomes = []
+            var idades = []
+
+            while (true) {
+                let nome = prompt("Qual é o nome?")
+                nomes.push(nome)
+
+                let idade = prompt("Qual é a idade?")
+                idades.push(idade)
+
+                let stop = prompt("Continuar? S/N")
+
+                if (stop == "N" || stop == "n") {
+                    break
+                }
+            }
+
+            for (let i = 0; i &lt; nomes.length; i ++) {
+                console.log(nomes[i] + " tem " + idades[i] + " anos.")
+            }
+
+            console.log("Foram feitos " + nomes.length + " cadastros.")
+        </code>
+    </pre>
+</body>
+</html>
