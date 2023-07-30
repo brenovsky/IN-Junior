@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 800px;
+    border-radius: 15px;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #15286B;
+    background-color: #15286b69;
+}
+
+.secao_mensagem {
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.escopo p {
+    border: 1px solid black;
+    padding: 3px;
+    width: 15rem;
+}
+
+#input {
+    background-color: #15286B;
+    padding-top: 1px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+footer {
+    align-items: flex-start;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    padding: 1%;
+    gap: 10px;
+}
+.input_mensagem {
+    width: 400px;
+    height: 50px;
+    align-items: center;
+}
