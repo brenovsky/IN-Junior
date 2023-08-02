@@ -1,0 +1,12 @@
+em php, pode abrir tag sem precisar fechar (se não tiver mais nenhuma tag php no código)
+php - "PHP: Hypertext Preprocessor", originalmente Personal Home Page
+
+para cada comando, um ";" no final
+
+html e php convivem!
+
+para criar variável, usar $
+
+gettype() -> vê o tipo do parâmetro
+
+echo "<br>"; -> quebra linha
