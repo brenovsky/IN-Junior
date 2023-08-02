@@ -1,0 +1,84 @@
+#wolf_name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-align: center;
+    padding: 1em;
+}
+
+#lobo{
+    width: 75vw;
+    height: 70vh;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+#vazia{
+    background-color: #2C5680;
+    border: 3px solid #333333;
+    width: 430px;
+    height: 328px;
+}
+
+#img1{
+    width: 430px;
+    height: 328px;
+    
+    position: absolute;
+    transform: translate(8%, -85%);
+}
+
+#btns{
+    margin-top: 7em;
+}
+
+#quem_somos{
+    transform: translateX(-45%);
+}
+
+button{
+    margin-left: 3em;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#btn_adotar{
+    background-color: #7AAC3A;   
+}
+
+#btn_excluir{
+    background-color: #DE5959; 
+    margin-left: 6.2em;
+}
+
+#texto{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    position: absolute;
+
+    width: 38vw;
+    height: 40vh;
+
+    margin-left: 29em;
+    margin-top: 1.5em;
+
+    transform: translateY(2.5%);
+}
+
+#bloco{
+    display: flex;
+}
+
+
+
+
+
+

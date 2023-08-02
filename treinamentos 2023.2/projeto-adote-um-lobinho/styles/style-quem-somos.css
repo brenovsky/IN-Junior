@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #85CDF5;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #333333;
+}
+
+.quem_somos{
+    transition: 1s;
+    position: relative;
+}
+
+
+.under_line{
+    position: absolute;
+    width: 2em;
+    height: .15em;
+    background-color: black;
+    right: 0;
+}
+
+.under_line:hover{
+    transition: 1s;
+    width: 100%;
+}
+
+.wolf_back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.qm_somos_back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#wolf_section{
+    height: 50vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(../images/Image.png);
+}
+
+#wof_text{
+    max-width: 40%;
+    color: white;
+}
+
+#qmsomos {
+    width: 70%;
+    color: black;
+}
+
+#wolf_text{
+    text-align: center;
+}
+
+#adote_lobo_h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 130.18px;
+}
+
+#adote_lobo_p{
+    font-size: 25px; 
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+#qm_somos_p{
+    font-size: 25px; 
+    font-weight: normal;
+    line-height: 25px;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 2em;
+}
+
+#wolf_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qm_somos_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobre_section{
+    width: 100vw;
+    background-color: #2C5680;
+    height: 30vh;
+}
+
+.wolf_sobre_h1{
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65.09px;
+    padding-bottom: .6em;
+}
+
+#wolf_sobre_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.54px;
+    margin-left: 5em;
+    margin-right: 5em;
+    color: white;
+}
+
+#wolf_section_sobre{
+    text-align: center;
+    padding: 30px;
+    background: #2C5680;
+}
+
+#wolf_valores{
+    justify-content: space-between;
+    padding-top: 1.5em;
+    background: #333333;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 4em;
+}
+
+.wolf_valores_todos{
+    width: 75%;
+    height: fit-content;
+    margin: auto;
+}
+
+.valor_individual{
+    width: fit-content;
+}
+
+.div_image{
+    border-radius: 100%;
+    background-color: white;
+    padding: 15px;
+}
+
+.valor_h1{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46.1px;
+    color:white
+}
+
+.valor_p{
+    max-width: 7em;
+    font-weight: lighter;
+    color: white;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+#wolf_back{
+    display: flex;
+    flex-direction: row;
+}
+
+.wolf_valores_todos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wolf_exemples_section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wolf_exemple_h1{
+    text-align: center;
+}
+
+#wolf_exemples{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 8em;
+}
+
+#wolf_exemple_h1{
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.images{
+    margin-right: 3em;
+}
+
+.div_vazia{
+    background-color: #2C5680;
+    border: 3px solid #333333;
+    width: 430px;
+    height: 328px;
+}
+
+.img{
+    width: 430px;
+    height: 328px;
+    position: absolute;
+    transform: translate(8%, -90%);
+} 
+
+.wolf_exemplo_text{
+    margin-left: 3em;
+}
+
+.wolf_name{
+    font-size: 36px;
+    line-height: 48.82px;
+   
+    font-weight: 700;
+}
+
+.wolf_age{
+    transform: translateY(-40%);
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.wolf_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+#text_group{
+    transform: translateX(50%);
+}
+
+#wolf_p_2{
+    margin-right: 2em;
+    text-align: right
+
+}
+
+#wolf_age_2{
+    transform: translate(22%, -40%);
+}
+
+#img_2{
+    transform: translate(8%, -93%);
+
+}
+
+#div_vazia_2{
+    transform: translate(20%);
+}
+
+
+
+#footer{
+    border-top: 2px solid ;
+    display: flex;
+    background-color: #333333;
+    color: white;
+    background-color: #333333;
+    padding: 2em 0 2em 0;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    margin-right: 3em;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+figcaption{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+iframe{
+    transform: translateX(30%);
+}
+
+button{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: .2em;
+    background-color: #DEB959;
+    color: #353535;
+    cursor: pointer;
+}
+
+#ifos{
+    margin-left: 9em;
+}
+
+#endereco{
+    width: 20em;
+}
+
+#final{
+    margin-left: 5em;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+
+#paw{
+    transform: translateX(10%);
+}
+
+#gradiente{
+    position: absolute;
+    margin-bottom: 17em;
+    background: linear-gradient(to right, rgb(243, 247, 2), rgb(6, 2, 252));
+    width: 100%;
+    height: .2em;
+}

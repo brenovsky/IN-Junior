@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/header&&footer.css">
+    <link rel="stylesheet" href="styles/adotelobinhos.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="images/pngwing.com.png" />
+    <title>Adote um Lobinho</title>
+</head>
+<body>
+    <header id="header">
+        <div id="nossos-lobinhos"><p>Nossos lobinhos</p></div>
+        <div><img id="icone-lobinho" src="./images/wolf.png" width="80.55" alt="wolf" id="wolf-logo"></div>
+        
+        <div class="quem_somos quem-somos"><p>Quem Somos</p>  <div class="under_line"></div></div>
+    </header>
+
+
+    <main id="main">
+        <section class="adopt_session">
+            <figure class="img_wolf">
+                <img src="images/image.svg" alt="wolf" id="img_wolf">
+            </figure>
+            <div class="text_adopt">
+                <h1 id="nome-do-lobo">Adote o(a) NomeDoLobo</h1>
+                <p class="adopt_p" id="id-do-lobo">ID-314159</p>
+            </div>
+        </section>
+        <form action="" id="form">
+            <div class="box_form">
+                <div id="label_area">
+                    <label for="id_name" class="text_name">Seu Nome:</label>
+                    <label for="id_idade" class="text_idade">Idade:</label> 
+                    <input type="input" class="form_name" name="name" id='id_name' required >
+                    <input type="input" class="form_idade" name="idade" id='id_idade' required >
+                </div>
+
+                <label for="id_email" class="text_email">E-mail:</label>
+                <input type="email" class="form_email" name="email" id="id_email" required>
+
+                <input type="submit" value="Adotar" class="button">
+            </div>
+        </form>
+    </main>
+
+
+
+    <footer id="footer">
+        <div id="gradiente"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.192804531543!2d-43.136683924078746!3d-22.906258337853416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99817ee1756031%3A0xd1dcbde0df6f873c!2sAv.%20Milton%20Tavares%20de%20Souza%2C%20Niter%C3%B3i%20-%20RJ%2C%2024210-346!5e0!3m2!1spt-BR!2sbr!4v1690737411192!5m2!1spt-BR!2sbr" width="340" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div id="ifos">
+            <figure>
+                <img src="./images/placeholder-for-map.png" alt="map" width="20" id="tel" class="space">
+                <figcaption id="endereco">Av. Milton Tavares de Souza, s/n - Sala 115 B - Boa Viagem, Niterói - RJ, 24210-315</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/call-answer.png" alt="map" width="20" id="phone" class="space">
+                <figcaption>(99) 99999-9999</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/envelope.png" alt="map" width="20" id="envelope" class="space">
+                <figcaption>salve-lobos@lobINhos.com</figcaption>
+            </figure>
+
+            <button id="quem_somos" class="quem-somos"> <a href="./quem-somos.html"> QUEM SOMOS</a> </button>
+        </div>
+
+        <div id="final">
+            <p>Desenvolvido com</p>
+            <img src="./images/paws.png" alt="paws" id="paw">
+        </div>
+    </footer>
+
+    <script src="./scripts/header&&footer.js"></script>
+    <script type="module" src="./scripts/adote-lobinho.js"></script>
+</body>
+</html>

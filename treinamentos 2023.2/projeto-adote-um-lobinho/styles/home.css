@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.wolf_back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#wolf_section{
+    height: 56vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(../images/Image.png);
+}
+
+#wof_text{
+    max-width: 40%;
+    color: white;
+}
+
+#wolf_text{
+    text-align: center;
+}
+
+#adote_lobo_h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 130.18px;
+}
+
+#adote_lobo_p{
+    font-size: 25px; 
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+#wolf_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre_section{
+    width: 100vw;
+    background-color: #2C5680;
+    height: 30vh;
+}
+
+.wolf_sobre_h1{
+    color: #DEB959;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65.09px;
+    padding-bottom: .6em;
+}
+
+#wolf_sobre_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.54px;
+    margin-left: 5em;
+    margin-right: 5em;
+    color: white;
+}
+
+#wolf_section_sobre{
+    text-align: center;
+    padding: 30px;
+    background: #2C5680;
+}
+
+#wolf_valores{
+    justify-content: space-between;
+    padding-top: 1.5em;
+    background: #333333;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 4em;
+}
+
+.wolf_valores_todos{
+    width: 75%;
+    height: fit-content;
+    margin: auto;
+}
+
+.valor_individual{
+    width: fit-content;
+}
+
+.div_image{
+    border-radius: 100%;
+    background-color: white;
+    padding: 25px;
+}
+
+.valor_h1{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46.1px;
+    color:white
+}
+
+.valor_p{
+    max-width: 7em;
+    font-weight: lighter;
+    color: white;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+#wolf_back{
+    display: flex;
+    flex-direction: row;
+}
+
+.wolf_valores_todos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wolf_exemples_section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wolf_exemple_h1{
+    text-align: center;
+}
+
+#wolf_exemples{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 8em;
+}
+
+#wolf_exemple_h1{
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.images{
+    margin-right: 3em;
+}
+
+.div_vazia{
+    background-color: #2C5680;
+    border: 3px solid #333333;
+    width: 430px;
+    height: 328px;
+}
+
+.img{
+    width: 430px;
+    height: 328px;
+    position: absolute;
+    transform: translate(8%, -90%);
+} 
+
+.wolf_exemplo_text{
+    margin-left: 3em;
+}
+
+.wolf_name{
+    font-size: 36px;
+    line-height: 48.82px;
+   
+    font-weight: 700;
+}
+
+#wolf_name_2{
+    text-align: right;
+    transform: translateX(-10%);
+}
+
+.wolf_age{
+    transform: translateY(-40%);
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.wolf_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+#text_group{
+    transform: translateX(50%);
+}
+
+#wolf_p_2{
+    margin-right: 2em;
+    text-align: right
+
+}
+
+#wolf_age_2{
+    transform: translate(72.5%, -40%);
+}
+
+#img_2{
+    transform: translate(8%, -93%);
+
+}
+
+#div_vazia_2{
+    transform: translate(20%);
+}

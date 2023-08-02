@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.yours_wolf {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #333333;
+}
+
+.who_are {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #333333;
+    position: relative;
+}
+
+.who_are:before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #333333;
+    width: 5.5rem;
+    left: 3rem;
+    top: 2.5rem
+}
+
+.who_are:hover:before {
+    transition: 1s;
+    width: 100%;
+    left: 0rem;
+    right: 1rem;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12em;
+    width: 80%;
+    margin-bottom: 8em;
+    margin-left: 9em;
+}
+
+.adopt_session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_wolf {
+   width: 16rem;
+   height: 16rem;
+   overflow: hidden;
+   border-radius: 60%;
+}
+
+h1 {
+    color: #000;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.adopt_p {
+    color: #000;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+#form {
+   margin-left: 4rem;
+}
+
+.box_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 4em;
+}
+
+.text_name {
+    color: #000;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+#label_area{
+    width: 100%;
+}
+
+.text_idade {
+    color: #000;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 17em;
+    text-align: start;
+
+}
+
+.form_name {
+    font-family: 'Darker Grotesque', sans-serif;
+    width: 60.6%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    
+}
+
+.form_idade {
+    font-family: 'Darker Grotesque', sans-serif;
+    width: 5%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    margin-left: 1.5rem;
+}
+
+.text_email {
+    color: #000;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+.form_email {
+    font-family: 'Darker Grotesque', sans-serif;
+    width: 68%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+}
+
+.button {
+    width: 11rem;
+    height: 3rem;
+    text-align: center;
+    flex-shrink: 0;
+    border: 1px solid #333;
+    background: #2C5680;
+    color: #FFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform: translateX(170%);
+    margin-top: 3rem;
+    padding-bottom: 1.7em;
+    padding-top: .5em;
+    cursor: pointer;
+}

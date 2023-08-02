@@ -1,0 +1,22 @@
+projeto-lobinho
+┗ css
+  ┗ Normalize.css
+  ┗ header.css (design do header)
+  ┗ footer.css (design do footer)
+
+  ┗ home-page.css
+  ┗ lista-de-lobinhos.css
+  ┗ ... (outras folhas de estilo de páginas específicas)
+
+┗ scripts
+  ┗ home-page.js
+  ┗ lista-de-lobinhos.js
+  ┗ ... (outros scripts .js)
+
+┗ index.html (aka home-page)
+┗ lista-de-lobinhos.html
+┗ ... (outras páginas .html)
+
+
+Isto é apenas um rascunho de como podemos organizar os arquivos
+- Felipe
